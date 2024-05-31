@@ -1,11 +1,12 @@
 import { BrowserRouter } from "react-router-dom";
 import Routers from "./routes";
+import RoomScene from "./Pages/Room/Room";
 
 function App() {
 	return (
-		<BrowserRouter>
-			<Routers />
-		</BrowserRouter>
+		<div style={{ width: '100vw', height: '100vh' }}>
+      <RoomScene />
+    </div>
 	);
 }
 
